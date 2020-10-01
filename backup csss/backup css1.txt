@@ -1,0 +1,155 @@
+body{
+	font: 15px Arial, helvatica, sans-serif ;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+/*estilos globales */
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;	
+}
+
+.boton1{
+	height: 38px;
+	background: #0f0f0f;
+	border:0;
+	padding-right: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+/*encabezado*/
+
+header{
+	background: #fff;
+	color: #F91405;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #504E4E 5px solid ;
+}
+header a{
+	margin-top: 10px;
+	color: #929191;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px; 
+
+}
+header li{
+	margin: 30px;
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;/*20 px a los lados y centro arriba y abajo*/
+}
+header #marca{
+	float: center;
+
+
+}
+header img{
+float: left;
+width: 300px;
+height: 80px;	
+}
+header #marca h1{
+	margin: 0;	
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .resaltado, header .actual a{
+	color: #504E4E;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #040202;
+	font-weight: bold;
+}
+/*cabecera con imagen*/
+#cabecera{
+	min-height:600px;
+	/*background: url('../img/logo\ ubimed_v2-02.jpg')no-repeat 0 -400px;*/
+	background: url(../img/02pq.jpg);
+	width: 100%;
+	text-align:center;
+	color: #fff;
+}
+#cabecera h2{
+	margin-top: 600px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #040202;
+	/*color: #0bf5c2 ; color de ubimed */
+	float: left;
+	text-align: center;
+
+	
+}
+#cabecera p{
+	font-size: 20px;
+}
+/*formulario boletin*/
+#boletin{
+	padding: 15px;
+	color: #fff;
+	background: #504e4ee0;
+}
+#boletin h1{
+	float: left;
+}
+#boletin form{
+float: right;
+margin-top: 15px;
+}
+#boletin input [type='email']{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+/*cajas*/
+
+#cajas{
+	margin-top: 20px;
+}
+
+#cajas .caja{
+	float: left;
+	text-align:center;
+	width: 30%;
+	padding: 10px;
+}
+#cajas .caja img{
+	width: 150px;
+
+}
+/*video*/
+#video{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background: #4e4e4ee8;
+	text-align: center;
+	
+	}
+	
+	
+
+/*footer o pie de pagina */
+footer{
+padding: 20px;
+margin-top: 2px;
+color: #fff;
+background: #4e4e4ee8;
+text-align: center;
+
+}
